@@ -1,0 +1,60 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 180%;
+  margin: 9px;
+  border-radius: 15px;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+input[type="text"] {
+  margin-left: 1rem;
+  padding: 1rem;
+  border-radius: 3px;
+  border: none;
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-group {
+  margin: 2rem 1;
+}
+
+label {
+  font-size: 1.3rem;
+}
+
+.form-control {
+  padding: 10rem;
+  border-radius: 10px;
+  border: none;
+}
+
+textarea {
+  height: 4rem;
+  resize: none;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-warning {
+  margin-left: 3rem;
+  text-decoration: none;
+}
+
+.btn-primary {
+  margin-left: 7rem;
+}
